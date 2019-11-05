@@ -1,16 +1,15 @@
 ---
-layout: post
 title: A journey into ASP.NET Core CORS (Cross Origin Resource Sharing)
-date: 2017-02-06
-type: post
-categories: [programming]
-tags:
-meta: {}
-author:
-  email: andrew.yh.chaa@gmail.com
-  display_name: Andy
-  first_name: Andrew
-  last_name: Chaa
+date: "2017-02-06T00:00:00.000Z"
+template: "post"
+category: "Programming"
+tags: 
+  - "Life"
+draft: false
+slug: "/posts/journey-into-asp-net-core-cors/"
+description: "Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the first resource was served.[1] A web page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos.[2] Certain \"cross-domain\" requests, notably AJAX requests, however are forbidden by default by the same-origin security policy."
+socialImage: "/media/42-line-bible.jpg"
+
 ---
 
 A quick note. I may turn this into a proper blog post.

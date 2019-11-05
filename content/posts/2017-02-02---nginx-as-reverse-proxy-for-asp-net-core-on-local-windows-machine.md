@@ -1,16 +1,15 @@
 ---
-layout: post
 title: Nginx as Reverse proxy for ASP.NET Core on Local Windows machine
-date: 2017-02-02
-type: post
-categories: [programming]
-tags:
-meta: {}
-author:
-  email: andrew.yh.chaa@gmail.com
-  display_name: Andy
-  first_name: Andrew
-  last_name: Chaa
+date: "2017-02-02T00:00:00.000Z"
+template: "post"
+category: "Programming"
+tags: 
+  - "Life"
+draft: false
+slug: "/posts/nginx-as-reverse-proxy-for-asp-net-core-on-local-windows-machine/"
+description: "NginX is a basket full of interesting features, but here, I'll focus on using it as reverse proxy."
+socialImage: "/media/42-line-bible.jpg"
+
 ---
 
 NginX is a basket full of interesting features, but here, I'll focus on using it as reverse proxy.

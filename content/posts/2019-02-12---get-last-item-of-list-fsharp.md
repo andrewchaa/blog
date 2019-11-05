@@ -1,15 +1,15 @@
 ---
-layout: post
 title: Get last item from List in F#
-date: 2019-02-12
-comments: true
-categories: [programming]
-tags: WILT
-meta: {}
-author:
-  display_name: Andy
-  first_name: Andrew
-  last_name: Chaa
+date: "2019-02-12T00:00:00.000Z"
+template: "post"
+category: "Programming"
+tags: 
+  - "Life"
+draft: false
+slug: "/posts/get-last-item-of-list-fsharp/"
+description: "In C#, you use bang (!) to negate a boolean expression. Unfortunately, not in F#."
+socialImage: "/media/42-line-bible.jpg"
+
 ---
 
 In C#, you use bang (!) to negate a boolean expression. Unfortunately, not in F#. it's ["not"](https://stackoverflow.com/questions/239888/logical-negation-operator-in-f-equivalent)

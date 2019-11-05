@@ -1,17 +1,15 @@
 ---
-layout: post
 title: 양치기들에게 나타나신 하나님
-date: 2016-12-24
-type: post
-categories: []
-tags:
-- 말씀
-meta: {}
-author:
-  email: andrew.chaa@yahoo.co.uk
-  display_name: Andy
-  first_name: Andrew
-  last_name: Chaa
+date: "2016-12-24T00:00:00.000Z"
+template: "post"
+category: "Programming"
+tags: 
+  - "Life"
+draft: false
+slug: "/posts/low-jobs-in-modern-days-like-shpherds/"
+description: "분당 우리교회 이찬수 목사님의 크리스마스 예배 말씀에 양치기에 대한 설명이 있었다. 당시 가장 하찮은 직업 Top 5안에 드는 직업이라고. 왠지 양치기 하면 별로 실감이 안나고 좀 멋있는 직업 같아서, 요즘 런던에서 폼 안나는 일 5가지를 생각해봤다. (순서는 생각나는대로)"
+socialImage: "/media/42-line-bible.jpg"
+
 ---
 Luke 2:8-9 "And there were shepherds living out in the fields nearby, keeping watch over their flocks at night. 9 An angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were terrified."
 
