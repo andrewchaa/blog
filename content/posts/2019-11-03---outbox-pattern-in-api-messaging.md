@@ -2,7 +2,7 @@
 title: Outbox Pattern in API and Messaging
 date: "2019-11-03T00:00:00.000Z"
 template: "post"
-categories: "Programming"
+category: "Programming"
 tags: 
   - "APIs"
   - "Messaging"
