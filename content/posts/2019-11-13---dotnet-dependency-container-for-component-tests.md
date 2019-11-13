@@ -1,49 +1,53 @@
 ---
-title: Outbox Pattern in API and Messaging
-date: "2019-11-03T00:00:00.000Z"
+title: Writing up dependency injection container for your component tests
+date: "2019-11-13T00:00:00.000Z"
 template: "post"
 category: "Programming"
 tags: 
-  - "APIs"
-  - "Messaging"
+  - "Testing"
+  - "Component Testing"
 draft: false
-slug: "/posts/outbox-pattern-in-api-messaging/"
-description: "Outbox is a simple relational database table that temporarily store all the events the service raises."
+slug: "/posts/dotnet-dependency-container-for-component-tests/"
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 
 ---
 
-Outbox is a simple relational database table that temporarily store all the events the service raises. 
+ASP.NET Core has in-built dependency injection container and it's pretty good enough to use. 
+I use TestApiFactory class to use it without too much set up, but this time, I had to wire up service provider myself, as thses tests run against Service Fabric worker process which is an executable. 
 
-Usually, an API request performs the following actions in sequence.
+By the way, what I mean by "Component Testing" is you [test your code against public interface](https://www.youtube.com/watch?v=EZ05e7EMOLM). The benefit is you couple your tests not to implementation of your code but to public interface, and as a result, tests tend to stay unchanged even though you are chaning your implementation of feature massively. 
+I only mock the external dependencies such as repositories and message publishers (Azure ServiceBus / AWS SNS)
 
-**POST /customers**
+Wiring up service container / provider is surprisingly simple to use. 
 
-1. Validate the request 
-1. Create the customer in the database
-1. Raise an event, CustomerCreated on messaging platform such as Service Bus or AWS SNS
-1. Send the response, 201, back to the API client
-
-In outbox pattern, you have two app services, API app and Event worker service. 
-
-**POST /customers**
-
-API App
-
-1. Validate the request 
-1. Create the customer in the database
-1. Store the event to raise in a temporary table, Outbox
-1. Send the response, 201, back to the API client
-
-Event Worker Service
-
-1. Poll the outbox database in intervals to perform batch job
-1. Read the stored events from the table
-1. Publish those events
-1. Delete the stored data from the Outbox table
-
-What would be the benefits, then?
-
-As API app doesn't publish the resulting event to messaging platform, the request finishes quicker. Event worker service processes message publication in batches, so it becomes more efficient. EWS deletes the stored event from the outbox as the last step, you would never fail to publish events. If it fails to publish it, it wouldn't be able to delete it, so would try to publish the event in the next batch. 
-
+```csharp
+[TestFixture]
+public class Tests
+{
+    private Mock<IStoreEvent> _eventStore
+    private ServiceProvider _serviceProvider
+    
+    public Tests() {
+        _eventStore = new Mock<IStoreEvent>();
+        _serviceProvider = new ServiceCollection()
+            .AddMediatR(typeof(Worker).Assembly)
+            .AddTransient(s => _eventStore.object)
+            .BuildServiceProvider();
+    }
+    
+    [Test]
+    public async Task Should_retrieve_message() {
+        // arrange
+        var mediator = _serviceProvider.GetService<IMediator>();
+        var processor = new Processor(mediator);
+        
+        // act
+        await processor.Run();
+        
+        // assert
+        _eventStore.Verify(s => s.List());
+    }
+}
+```
 
