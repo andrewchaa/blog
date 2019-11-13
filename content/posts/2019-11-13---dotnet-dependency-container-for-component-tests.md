@@ -8,7 +8,7 @@ tags:
   - "Component Testing"
 draft: false
 slug: "/posts/dotnet-dependency-container-for-component-tests/"
-description: ""
+description: "ASP.NET Core has in-built dependency injection container and it’s pretty good enough to use. I use TestApiFactory class to use it without too much set up, but this time, I had to wire up service provider myself, as thses tests run against Service Fabric worker process which is an executable."
 socialImage: "/media/42-line-bible.jpg"
 
 ---
