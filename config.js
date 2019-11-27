@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Andrwe Chaa',
     photo: '/photo.jpg',
-    bio: 'Senior Full-stack Developer',
+    bio: 'Principal Developer @ ClearBank',
     contacts: {
       email: '',
       facebook: '#',
