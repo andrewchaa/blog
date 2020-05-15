@@ -26,7 +26,7 @@ Create a storage account with blob storage. Then enable static website on the st
 
 Once enabled, it'll create $web directory / folder on the blob container.
 
-![](.gitbook/assets/image.png)
+![](assets/image.png)
 
 It shows the endpoint: https://contoso.web.core.windows.net 
 
@@ -59,11 +59,11 @@ You can enable Azure CDN for your static website
 * Under the Blob Service menu, select Azure CDN to open the Azure CDN page
 * Specify your static website endpoint in the Origin hostname field. 
 
-![](/assets/image4.png)
+![](assets/image4.png)
 
 * Update Origin fields like these. Otherwise, you would have the infamous XML error
 
-![](/assets/image5.png)
+![](assets/image5.png)
 
 ## Map a custom domain
 
