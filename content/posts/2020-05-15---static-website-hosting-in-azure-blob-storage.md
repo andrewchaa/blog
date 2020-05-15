@@ -1,3 +1,19 @@
+---
+title: Static website hosting in Azure Blob Storage
+date: "2020-05-15T00:00:00.000Z"
+template: "post"
+category: "Development"
+tags: 
+  - "Cloud"
+  - "Azure"
+  - "Front-end"
+draft: false
+slug: "/posts/static-website-hosting-in-azure-blob-storage/"
+description: "Given you have a react web app, you want to deploy it onto Azure. As it doesn't have any server-side code, you can deploy it on Azure Blob storage, replicated on Azure CDN. All the requests would be served by CDN and it would be fast, reliable, and cost-saving."
+socialImage: "/media/42-line-bible.jpg"
+
+---
+
 # Static website hosting in Azure Blob Storage
 
 Given you have a react web app, you want to deploy it onto Azure. As it doesn't have any server-side code, you can deploy it on Azure Blob storage, replicated on Azure CDN. All the requests would be served by CDN and it would be fast, reliable, and cost-saving. 
