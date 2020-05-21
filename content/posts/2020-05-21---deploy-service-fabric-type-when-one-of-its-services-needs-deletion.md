@@ -13,8 +13,6 @@ description: "Sometimes, you create a service but your are not happy with the na
 socialImage: "/media/42-line-bible.jpg"
 ---
 
-# Deploy Service Fabric type when one of its services needs deletion
-
 Sometimes, you create a service but your are not happy with the naming. After fierce debate with colleagues, you rename the service. Locally it runs ok and everything looks fine. Yet the renaming the service can bite you back when you deploy it to a remote Service Fabric cluster via Azure Devops. Suddenly you get this error.
 
 > "Error Services must be explicitly deleted before removing their Service Types."
