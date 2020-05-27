@@ -1,5 +1,5 @@
 ---
-title: Serverless CI/CD with AWS CodePipeline
+title: Service Fabric skeleton service
 date: "2020-05-27T00:00:00.000Z"
 template: "post"
 category: "Development"
