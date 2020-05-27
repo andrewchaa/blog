@@ -19,11 +19,11 @@ On Service fabric, you can either create ASP.NET Core API service or worker proc
 
 Right click on ServiceFabric project &gt; Create a new Service Fabric service
 
-![](assets/image%20%286%29.png)
+![](assets/image6.png)
 
 Choose "Stateless Service" for worker service, as Stateful is the new evil in cloud era. It will create a skeleton service project. I named it xxxx.xxxx.xxxx.xxxx.Worker
 
-![](assets/image%20%287%29.png)
+![](assets/image7.png)
 
 You launch it by pressing "CTRL + F5" on Visual Studio. That's my favourite way of deploying the new service fabric into the local dev machine cluster.
 
