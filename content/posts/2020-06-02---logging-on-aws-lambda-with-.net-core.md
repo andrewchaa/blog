@@ -1,6 +1,6 @@
 ---
 title: Logging on AWS Lambda with .NET Core
-date: "2020-05-28T00:00:00.000Z"
+date: "2020-06-02T00:00:00.000Z"
 template: "post"
 category: "Development"
 tags: 
