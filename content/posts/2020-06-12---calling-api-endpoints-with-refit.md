@@ -10,8 +10,7 @@ tags:
   - "Refit"
 draft: false
 slug: "/posts/calling-api-endpoints-with-refit/"
-description: "Refit is the automatic type-safe REST library for .NET Core, Xamarin and .NET. Heavily inspired by Square's Retrofit library, Refit turns your REST API into a live interface
-Service Fabric application only runs on x64 platform. By default, Visual Studio creates quite a few  different combination of settings"
+description: "Refit is the automatic type-safe REST library for .NET Core, Xamarin and .NET. Heavily inspired by Square's Retrofit library"
 socialImage: "/media/42-line-bible.jpg"
 ---
 
