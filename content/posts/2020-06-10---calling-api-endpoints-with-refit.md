@@ -1,11 +1,13 @@
+
 ---
 title: Calling api endpoints with Refit
-date: "2020-06-10T00:00:00.000Z"
+date: "2020-06-10T21:51:58Z"
 template: "post"
 category: "Development"
+tags:
 draft: false
 slug: "/posts/calling-api-endpoints-with-refit/"
-description: "Refit is"
+description: "[Refit ](https://github.com/reactiveui/refit)is"
 socialImage: "/media/42-line-bible.jpg"
 ---
 
