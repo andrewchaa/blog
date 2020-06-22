@@ -7,6 +7,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/calling-api-endpoints-with-refit/"
+description: "Refit is the automatic type-safe REST library for .NET Core, Xamarin and .NET. Heavily inspired by Square's Retrofit library"
 socialImage: "/media/42-line-bible.jpg"
 ---
 
