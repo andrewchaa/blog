@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/easy-way-to-compare-the-values-of-the-two-complex-objects/"
-description: "In C\#, Equals \(=\) check if the two objects are the same or the same instance. Often in unit tests,  you have to assert that the two objects have the same values in their object graphs. The easiest way is to serialize those objects in json or xml and compare the string."
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/logging-on-aws-lambda-with-net-core/"
-description: "The lambda function comes with a CloudWatch logs log group, with a log stream and the runtime sends details about each invocation to the log stream. "
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

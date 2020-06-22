@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/serverless-cicd-with-aws-codepipeline/"
-description: "I've set up a CI/CD Pipeline for my serverless project. This is my settings."
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

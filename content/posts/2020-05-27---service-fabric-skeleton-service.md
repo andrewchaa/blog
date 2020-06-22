@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/service-fabric-skeleton-service/"
-description: "On Service fabric, you can either create ASP.NET Core API service or worker process. I'm going to create a worker service today"
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

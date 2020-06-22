@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/static-website-hosting-in-azure-blob-storage/"
-description: "Given you have a react web app, you want to deploy it onto Azure. As it doesn't have any server-side code, you can deploy it on Azure Blob storage, replicated on Azure CDN. All the requests would be served by CDN and it would be fast, reliable, and cost-saving. "
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

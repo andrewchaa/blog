@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/cosmos-emulator-for-local-development-and-testing/"
-description: "## Emulator"
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

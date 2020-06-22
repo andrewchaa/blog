@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/calling-api-endpoints-with-refit/"
-description: "[Refit ](https://github.com/reactiveui/refit)is"
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

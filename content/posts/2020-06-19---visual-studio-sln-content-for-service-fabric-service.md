@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/any-cpu-settings-in-visual-studio-sln-content-for-service-fabric-service/"
-description: "Service Fabric application only runs on x64 platform. By default, Visual Studio creates quite a few  different combination of settings"
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

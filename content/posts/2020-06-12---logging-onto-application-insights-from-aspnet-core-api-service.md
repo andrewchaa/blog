@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/logging-onto-application-insights-from-aspnet-core-api-service/"
-description: "You can send trace logs to Application Insight."
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

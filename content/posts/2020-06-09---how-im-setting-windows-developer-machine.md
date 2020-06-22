@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/how-im-setting-my-windows-developer-machine/"
-description: "## Installations"
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

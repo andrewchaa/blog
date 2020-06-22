@@ -6,7 +6,7 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/calling-the-parents-function-from-a-child-component-in-react/"
-description: "I was working on a modal dialog in React. When I click a button to verify the email address of a user, I wanted to display a confirmation dialog to make sure it's a valid operation. "
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
   

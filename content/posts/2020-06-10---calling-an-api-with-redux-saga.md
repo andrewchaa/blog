@@ -9,9 +9,9 @@ slug: "/posts/calling-an-api-with-redux-saga/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
+  
 
-
-redux-saga is a library that aims to make application side effects \(i.e. asynchronous things like data fetching and impure things like accessing the browser cache\) easier to manage, more efficient to execute, easy to test, and better at handling failures. redux-saga uses ES6 generator function.
+redux-saga is a library that aims to make application side effects \(i.e. asynchronous things like data fetching and impure things like accessing the browser cache\) easier to manage, more efficient to execute, easy to test, and better at handling failures. redux-saga uses ES6 generator function. 
 
 Install the packages
 
@@ -37,7 +37,7 @@ const mapDispatchToProps = {
 export default connect(mapStateToProps, mapDispatchToProps)(InstallerPage)
 ```
 
-verifyEmailStart is an action in the redux reducer
+verifyEmailStart is an action in the redux reducer 
 
 ```javascript
 import { createSlice } from 'redux-starter-kit';
@@ -58,7 +58,7 @@ const installer = createSlice({
 })
 
 export const { actions, reducer } = installer
-export const {
+export const { 
   verifyEmailStart,
   verifyEmailComplete
  } = actions
@@ -72,7 +72,7 @@ import { call, put, takeLatest } from 'redux-saga/effects'
 import Amplify, { API } from 'aws-amplify'
 
 import aws_exports from '../../aws-exports'
-import {
+import { 
   verifyEmailStart,
   verifyEmailComplete
   } from '../reducers/installer'

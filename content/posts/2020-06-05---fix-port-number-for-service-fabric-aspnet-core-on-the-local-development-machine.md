@@ -6,14 +6,14 @@ category: "Development"
 tags:
 draft: false
 slug: "/posts/fix-port-number-for-service-fabric-aspnet-core-on-the-local-development-machine/"
-description: "You can run ASP.NET Core API app as a Service Fabric service. By default, the port number of the api host will be decided by the Service Fabric service. This cause one issue that the port number can change when you restart the cluster. When you run your integration tests locally, you want the API port number to be fixed like \"http://localhost:8221\""
+description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
-
+  
 
 You can run ASP.NET Core API app as a Service Fabric service. By default, the port number of the api host will be decided by the Service Fabric service. This cause one issue that the port number can change when you restart the cluster. When you run your integration tests locally, you want the API port number to be fixed like "http://localhost:8221"
 
-To do so, you need to fix the port number for your local machine. On other environments like Staging or Production, you can let the Service Fabric service decide it.
+To do so, you need to fix the port number for your local machine. On other environments like Staging or Production, you can let the Service Fabric service decide it. 
 
 ## ApplicationManifest.xml
 
@@ -25,12 +25,12 @@ Update the manifest file to have ResourceOverrides with Endpoint settings. Add a
   <Parameter Name="Api_Port" DefaultValue="" />
 </Parameters>
 <ServiceManifestImport>
-  <ServiceManifestRef ServiceManifestName="Service.ApiPkg"
+  <ServiceManifestRef ServiceManifestName="Service.ApiPkg" 
    ServiceManifestVersion="1.0.0" />
   <ConfigOverrides />
   <ResourceOverrides>
     <Endpoints>
-      <Endpoint Name="ServiceEndpoint" Port="[Api_Port]"
+      <Endpoint Name="ServiceEndpoint" Port="[Api_Port]" 
        Protocol="http" Type="Input" />
     </Endpoints>
   </ResourceOverrides>
@@ -45,7 +45,7 @@ In ApplicationParameters directory, you have 3 files
 * Local.1Node.xml
 * Local.5Node.xml
 
-Cloud.xml contains parameter values for remote environments like Production. Local.xNode.xml files have the same parameters for local environment as the name suggest.
+Cloud.xml contains parameter values for remote environments like Production. Local.xNode.xml files have the same parameters for local environment as the name suggest. 
 
 ```markup
 # Cloud.xml
