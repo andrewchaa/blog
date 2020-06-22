@@ -3,16 +3,13 @@ title: Logging on AWS Lambda with .NET Core
 date: "2020-06-02T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "AWS"
-  - "Lambda"
-  - "Serverless"
-  - "Development"
+tags:
 draft: false
-slug: "/posts/logging-on-aws-lambda-with-.net-core/"
-description: "The lambda function comes with a CloudWatch logs log group, with a log stream and the runtime sends details about each invocation to the log stream."
+slug: "/posts/logging-on-aws-lambda-with-net-core/"
+description: "The lambda function comes with a CloudWatch logs log group, with a log stream and the runtime sends details about each invocation to the log stream. "
 socialImage: "/media/42-line-bible.jpg"
 ---
+  
 
 The lambda function comes with a CloudWatch logs log group, with a log stream and the runtime sends details about each invocation to the log stream. 
 

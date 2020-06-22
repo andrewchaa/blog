@@ -3,15 +3,13 @@ title: Service Fabric skeleton service
 date: "2020-05-27T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "Cloud"
-  - "Azure"
-  - "Service Fabric"
+tags:
 draft: false
 slug: "/posts/service-fabric-skeleton-service/"
 description: "On Service fabric, you can either create ASP.NET Core API service or worker process. I'm going to create a worker service today"
 socialImage: "/media/42-line-bible.jpg"
 ---
+  
 
 On Service fabric, you can either create ASP.NET Core API service or worker process. I'm going to create a worker service today
 
@@ -19,11 +17,11 @@ On Service fabric, you can either create ASP.NET Core API service or worker proc
 
 Right click on ServiceFabric project &gt; Create a new Service Fabric service
 
-![](assets/image6.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 Choose "Stateless Service" for worker service, as Stateful is the new evil in cloud era. It will create a skeleton service project. I named it xxxx.xxxx.xxxx.xxxx.Worker
 
-![](assets/image7.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 You launch it by pressing "CTRL + F5" on Visual Studio. That's my favourite way of deploying the new service fabric into the local dev machine cluster.
 

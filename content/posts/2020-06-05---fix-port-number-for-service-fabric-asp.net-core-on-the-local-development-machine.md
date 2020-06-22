@@ -3,17 +3,13 @@ title: Fix Port number for Service Fabric ASP.NET Core on the local development 
 date: "2020-06-05T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "Service Fabric"
-  - "Cloud"
-  - "ASP.NET Core"
-  - "Development"
+tags:
 draft: false
-slug: "/posts/fix-port-number-for-service-fabric-asp.net-core-on-the-local-development-machine/"
-description: "You can run ASP.NET Core API app as a Service Fabric service. By default, the port number of the api host will be decided by the Service Fabric service. This cause one issue that the port number can change when you restart the cluster."
+slug: "/posts/fix-port-number-for-service-fabric-aspnet-core-on-the-local-development-machine/"
+description: "You can run ASP.NET Core API app as a Service Fabric service. By default, the port number of the api host will be decided by the Service Fabric service. This cause one issue that the port number can change when you restart the cluster. When you run your integration tests locally, you want the API port number to be fixed like "http://localhost:8221""
 socialImage: "/media/42-line-bible.jpg"
 ---
-
+  
 
 You can run ASP.NET Core API app as a Service Fabric service. By default, the port number of the api host will be decided by the Service Fabric service. This cause one issue that the port number can change when you restart the cluster. When you run your integration tests locally, you want the API port number to be fixed like "http://localhost:8221"
 

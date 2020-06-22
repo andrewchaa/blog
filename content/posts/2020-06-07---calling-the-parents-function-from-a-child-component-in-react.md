@@ -3,14 +3,13 @@ title: Calling the parent's function from a child component in React
 date: "2020-06-07T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "React"
-  - "javascript"
+tags:
 draft: false
 slug: "/posts/calling-the-parents-function-from-a-child-component-in-react/"
-description: "I was working on a modal dialog in React. When I click a button to verify the email address of a user, I wanted to display a confirmation dialog to make sure it's a valid operation."
+description: "I was working on a modal dialog in React. When I click a button to verify the email address of a user, I wanted to display a confirmation dialog to make sure it's a valid operation. "
 socialImage: "/media/42-line-bible.jpg"
 ---
+  
 
 I was working on a modal dialog in React. When I click a button to verify the email address of a user, I wanted to display a confirmation dialog to make sure it's a valid operation. 
 

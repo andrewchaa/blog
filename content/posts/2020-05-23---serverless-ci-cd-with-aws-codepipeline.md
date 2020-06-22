@@ -3,15 +3,13 @@ title: Serverless CI/CD with AWS CodePipeline
 date: "2020-05-23T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "Cloud"
-  - "AWS"
-  - "Serverless"
+tags:
 draft: false
-slug: "/posts/deploy-service-fabric-type-when-one-of-its-services-needs-deletion/"
-description: "Sometimes, you create a service but your are not happy with the naming. After fierce debate with colleagues, you rename the service. Locally it runs ok and everything looks fine. Yet the renaming the service can bite you back when you deploy it to a remote Service Fabric cluster via Azure Devops."
+slug: "/posts/serverless-cicd-with-aws-codepipeline/"
+description: "I've set up a CI/CD Pipeline for my serverless project. This is my settings."
 socialImage: "/media/42-line-bible.jpg"
 ---
+  
 
 I've set up a CI/CD Pipeline for my serverless project. This is my settings.
 

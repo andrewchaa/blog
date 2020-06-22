@@ -1,6 +1,6 @@
 ---
 title: Calling api endpoints with Refit
-date: "2020-06-10T00:00:00.000Z"
+date: "2020-06-15T00:00:00.000Z"
 template: "post"
 category: "Development"
 tags:
@@ -9,7 +9,7 @@ slug: "/posts/calling-api-endpoints-with-refit/"
 description: "[Refit ](https://github.com/reactiveui/refit)is"
 socialImage: "/media/42-line-bible.jpg"
 ---
-
+  
 
 [Refit ](https://github.com/reactiveui/refit)is
 
@@ -57,7 +57,7 @@ public class HeaderClientHandler : HttpClientHandler
         _subscriptionKey = subscriptionKey;
     }
 
-    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request,
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, 
         CancellationToken cancellationToken)
     {
         request.Headers.Add("SubscriptionKey", _subscriptionKey);
@@ -70,7 +70,7 @@ public class HeaderClientHandler : HttpClientHandler
 In the test file, you call the actual api
 
 ```csharp
-public CreateTransactionTests(TestClientFixture clientFixture,
+public CreateTransactionTests(TestClientFixture clientFixture, 
     ITestOutputHelper output)
 {
     _output = output;

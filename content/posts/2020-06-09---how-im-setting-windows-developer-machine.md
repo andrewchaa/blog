@@ -1,16 +1,15 @@
 ---
-title: How I'm setting Windows developer machine
-date: "2020-05-28T00:00:00.000Z"
+title: How I'm setting my Windows developer machine
+date: "2020-06-09T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "Setup"
-  - "Development"
+tags:
 draft: false
-slug: "/posts/how-im-setting-windows-developer-machine/"
-description: "This is how I set up my windows machine for development"
+slug: "/posts/how-im-setting-my-windows-developer-machine/"
+description: "## Installations"
 socialImage: "/media/42-line-bible.jpg"
 ---
+  
 
 ## Installations
 
@@ -111,5 +110,17 @@ Then install Git Extensions for GUI: [http://gitextensions.github.io/](http://gi
 
 As I develop services on Service Fabric at work, I need to install the SDK: [https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started)
 
+### Postman
 
+Install postman: [https://www.postman.com/](https://www.postman.com/)
+
+### Terraform
+
+```bash
+choco install terraform
+```
+
+### Azure CLI
+
+Install from [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 

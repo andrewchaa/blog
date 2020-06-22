@@ -3,18 +3,13 @@ title: Static website hosting in Azure Blob Storage
 date: "2020-05-15T00:00:00.000Z"
 template: "post"
 category: "Development"
-tags: 
-  - "Cloud"
-  - "Azure"
-  - "Front-end"
+tags:
 draft: false
 slug: "/posts/static-website-hosting-in-azure-blob-storage/"
-description: "Given you have a react web app, you want to deploy it onto Azure. As it doesn't have any server-side code, you can deploy it on Azure Blob storage, replicated on Azure CDN. All the requests would be served by CDN and it would be fast, reliable, and cost-saving."
+description: "Given you have a react web app, you want to deploy it onto Azure. As it doesn't have any server-side code, you can deploy it on Azure Blob storage, replicated on Azure CDN. All the requests would be served by CDN and it would be fast, reliable, and cost-saving. "
 socialImage: "/media/42-line-bible.jpg"
-
 ---
-
-# Static website hosting in Azure Blob Storage
+  
 
 Given you have a react web app, you want to deploy it onto Azure. As it doesn't have any server-side code, you can deploy it on Azure Blob storage, replicated on Azure CDN. All the requests would be served by CDN and it would be fast, reliable, and cost-saving. 
 
@@ -22,11 +17,11 @@ Given you have a react web app, you want to deploy it onto Azure. As it doesn't 
 
 Create a storage account with blob storage. Then enable static website on the storage account. It'll ask you what would be the name of the default file. I chose index.html, as it's the default html file of my react app. 
 
-![Enable Static website](assets/image1.png)
+![Enable Static website](.gitbook/assets/image%20%281%29.png)
 
 Once enabled, it'll create $web directory / folder on the blob container.
 
-![](assets/image.png)
+![](.gitbook/assets/image.png)
 
 It shows the endpoint: https://contoso.web.core.windows.net 
 
@@ -47,7 +42,7 @@ I used Azure Storage Explorer for testing purpose, but would set up an Azure Pip
 
 The files at the primary static website endpoint are served through anonymous access requests, which means public read-only access to  all files. 
 
-![](assets/image2.png)
+![](.gitbook/assets/image%20%282%29.png)
 
 I used Public access level: Blob, so that the primary static website endpoint would be [https://contosoblobaccount.z22.web.core.windows.net/index.html](https://contosoblobaccount.z22.web.core.windows.net/index.html).
 
@@ -59,11 +54,11 @@ You can enable Azure CDN for your static website
 * Under the Blob Service menu, select Azure CDN to open the Azure CDN page
 * Specify your static website endpoint in the Origin hostname field. 
 
-![](assets/image4.png)
+![](.gitbook/assets/image%20%284%29.png)
 
 * Update Origin fields like these. Otherwise, you would have the infamous XML error
 
-![](assets/image5.png)
+![](.gitbook/assets/image%20%285%29.png)
 
 ## Map a custom domain
 
