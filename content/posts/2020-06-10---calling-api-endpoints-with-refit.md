@@ -1,6 +1,6 @@
 ---
 title: Calling api endpoints with Refit
-date: 2020-06-10TT00:00:00.000Z"
+date: 2020-06-10TT00:00:00.000Z
 template: "post"
 category: "Development"
 draft: false
