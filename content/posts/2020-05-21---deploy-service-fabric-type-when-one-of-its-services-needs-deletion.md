@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/deploy-service-fabric-type-when-one-of-its-services-needs-deletion/"
+slug: "/posts/2020-05-21/deploy-service-fabric-type-when-one-of-its-services-needs-deletion/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/calling-the-parents-function-from-a-child-component-in-react/"
+slug: "/posts/2020-06-07/calling-the-parents-function-from-a-child-component-in-react/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

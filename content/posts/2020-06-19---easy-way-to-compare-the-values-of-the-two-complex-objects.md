@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/easy-way-to-compare-the-values-of-the-two-complex-objects/"
+slug: "/posts/2020-06-19/easy-way-to-compare-the-values-of-the-two-complex-objects/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

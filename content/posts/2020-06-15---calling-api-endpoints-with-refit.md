@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/calling-api-endpoints-with-refit/"
+slug: "/posts/2020-06-15/calling-api-endpoints-with-refit/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

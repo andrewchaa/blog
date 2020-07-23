@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws/"
+slug: "/posts/2020-07-22/serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/serverless-cicd-with-aws-codepipeline/"
+slug: "/posts/2020-05-23/serverless-cicd-with-aws-codepipeline/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

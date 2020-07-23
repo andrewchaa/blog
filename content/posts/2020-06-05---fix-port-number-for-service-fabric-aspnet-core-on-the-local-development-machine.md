@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/fix-port-number-for-service-fabric-aspnet-core-on-the-local-development-machine/"
+slug: "/posts/2020-06-05/fix-port-number-for-service-fabric-aspnet-core-on-the-local-development-machine/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

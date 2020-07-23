@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/handy-apps-for-mac/"
+slug: "/posts/2020-07-02/handy-apps-for-mac/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

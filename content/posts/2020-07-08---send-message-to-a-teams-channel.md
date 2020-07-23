@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/send-message-to-a-teams-channel/"
+slug: "/posts/2020-07-08/send-message-to-a-teams-channel/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

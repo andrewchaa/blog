@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/logging-onto-application-insights-from-aspnet-core-api-service/"
+slug: "/posts/2020-06-12/logging-onto-application-insights-from-aspnet-core-api-service/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

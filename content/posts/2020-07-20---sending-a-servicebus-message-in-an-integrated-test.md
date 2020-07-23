@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/sending-a-servicebus-message-in-an-integrated-test/"
+slug: "/posts/2020-07-20/sending-a-servicebus-message-in-an-integrated-test/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

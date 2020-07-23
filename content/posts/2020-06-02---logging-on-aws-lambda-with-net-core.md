@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/logging-on-aws-lambda-with-net-core/"
+slug: "/posts/2020-06-02/logging-on-aws-lambda-with-net-core/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

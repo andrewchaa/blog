@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/azure-cosmos-db-performance-tips/"
+slug: "/posts/2020-07-10/azure-cosmos-db-performance-tips/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/service-fabric-app-health-check/"
+slug: "/posts/2020-06-22/service-fabric-app-health-check/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

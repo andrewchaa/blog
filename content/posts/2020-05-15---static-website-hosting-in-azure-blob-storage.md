@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/static-website-hosting-in-azure-blob-storage/"
+slug: "/posts/2020-05-15/static-website-hosting-in-azure-blob-storage/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

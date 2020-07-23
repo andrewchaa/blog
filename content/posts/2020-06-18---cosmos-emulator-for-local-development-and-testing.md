@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/cosmos-emulator-for-local-development-and-testing/"
+slug: "/posts/2020-06-18/cosmos-emulator-for-local-development-and-testing/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

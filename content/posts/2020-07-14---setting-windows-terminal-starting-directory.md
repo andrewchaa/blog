@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/setting-windows-terminal-starting-directory/"
+slug: "/posts/2020-07-14/setting-windows-terminal-starting-directory/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/serialize-and-deserialize-enum-as-string-with-systemtextjson/"
+slug: "/posts/2020-07-20/serialize-and-deserialize-enum-as-string-with-systemtextjson/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

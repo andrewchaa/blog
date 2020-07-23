@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/service-fabric-skeleton-service/"
+slug: "/posts/2020-05-27/service-fabric-skeleton-service/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

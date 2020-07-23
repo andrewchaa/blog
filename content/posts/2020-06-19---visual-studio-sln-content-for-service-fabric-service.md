@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/any-cpu-settings-in-visual-studio-sln-content-for-service-fabric-service/"
+slug: "/posts/2020-06-19/any-cpu-settings-in-visual-studio-sln-content-for-service-fabric-service/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

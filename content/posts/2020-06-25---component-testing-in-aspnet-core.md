@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/component-testing-in-aspnet-core/"
+slug: "/posts/2020-06-25/component-testing-in-aspnet-core/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

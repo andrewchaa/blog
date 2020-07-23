@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/protect-an-api-endpoint-with-usage-plan-on-aws/"
+slug: "/posts/2020-07-03/protect-an-api-endpoint-with-usage-plan-on-aws/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

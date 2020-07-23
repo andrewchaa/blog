@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/using-timespan-configuration-values-in-net-core/"
+slug: "/posts/2020-06-30/using-timespan-configuration-values-in-net-core/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

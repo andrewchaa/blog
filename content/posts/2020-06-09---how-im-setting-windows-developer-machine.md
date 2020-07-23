@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/how-im-setting-my-windows-developer-machine/"
+slug: "/posts/2020-06-09/how-im-setting-my-windows-developer-machine/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/global-error-handling-in-aspnet-core-web-apis/"
+slug: "/posts/2020-07-13/global-error-handling-in-aspnet-core-web-apis/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---

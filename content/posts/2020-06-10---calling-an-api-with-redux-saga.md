@@ -5,7 +5,7 @@ template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/calling-an-api-with-redux-saga/"
+slug: "/posts/2020-06-10/calling-an-api-with-redux-saga/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
