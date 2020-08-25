@@ -1,11 +1,11 @@
 ---
 title: How I'm setting my Windows developer machine
-date: "2020-06-09T00:00:00.000Z"
+date: "2020-08-12T00:00:00.000Z"
 template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/2020-06-09/how-im-setting-my-windows-developer-machine/"
+slug: "/posts/2020-08-12/how-im-setting-my-windows-developer-machine/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
@@ -69,6 +69,11 @@ Download from [https://code.visualstudio.com/](https://code.visualstudio.com/)
 For reliable terminal window: [https://conemu.github.io/](https://conemu.github.io/)
 
 In case of Windows Terminal, you can get it from Microsoft Store: [https://github.com/Microsoft/Terminal](https://github.com/Microsoft/Terminal)
+
+### SQL Server and Management Studio
+
+* SQL Server Engine: [https://www.microsoft.com/en-gb/sql-server/sql-server-downloads](https://www.microsoft.com/en-gb/sql-server/sql-server-downloads)
+* Management Studio: [https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)
 
 ## Windows
 
