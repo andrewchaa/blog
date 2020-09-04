@@ -1,11 +1,11 @@
 ---
-title: Creting a test Subscription to Azure Service Bus Topic
-date: "2020-08-25T00:00:00.000Z"
+title: Creating a test Subscription to Azure Service Bus Topic
+date: "2020-09-04T00:00:00.000Z"
 template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/2020-08-25/creting-a-test-subscription-to-azure-service-bus-topic/"
+slug: "/posts/2020-09-04/creating-a-test-subscription-to-azure-service-bus-topic/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
