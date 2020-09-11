@@ -1,11 +1,11 @@
 ---
 title: My favourite Git commands
-date: "2020-08-30T00:00:00.000Z"
+date: "2020-09-06T00:00:00.000Z"
 template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/2020-08-30/my-favourite-git-commands/"
+slug: "/posts/2020-09-06/my-favourite-git-commands/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
@@ -24,7 +24,17 @@ git pull
 # fetch the latest commits
 git fetch
 
-# delete the branch forcefully
+# delete the local branch forcefully
 git branch -D feature/tools 
+
+# delete the remote branch
+git push origin --delete feature/lambda
+
+# sometimes you get this error
+error: unable to push to unqualified destination: remoteBranchName The destination refspec neither matches an existing ref
+
+# then sync your branch list
+git fetch -p
+
 ```
 
