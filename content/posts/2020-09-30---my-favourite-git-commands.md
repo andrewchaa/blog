@@ -1,11 +1,11 @@
 ---
 title: My favourite Git commands
-date: "2020-09-06T00:00:00.000Z"
+date: "2020-09-30T00:00:00.000Z"
 template: "post"
 category: "Development"
 tags:
 draft: false
-slug: "/posts/2020-09-06/my-favourite-git-commands/"
+slug: "/posts/2020-09-30/my-favourite-git-commands/"
 description: ""
 socialImage: "/media/42-line-bible.jpg"
 ---
@@ -35,6 +35,9 @@ error: unable to push to unqualified destination: remoteBranchName The destinati
 
 # then sync your branch list
 git fetch -p
+
+# delete files from commit
+git rm --cached ./lock.json
 
 ```
 
