@@ -24,3 +24,6 @@ Control Panel / Administrative Tools / Local Security Settings / Local Policies 
 if in a domain setup, the same setting, but by group policy from the domain controller</li>
 <li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=4de91d3a-69f4-4d7b-94b1-c69b8be029f4&amp;displaylang=en">Windows SteadyState 2.5 Beta</a>: 여러대의 공용 computer들을 편리하게 관리해주는 tool</li>
 </ul>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkxNzc3NjczNF19
+-->
