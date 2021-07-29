@@ -1,5 +1,5 @@
 ---
-title: Azure Blob storage: hot, cool, and archive
+title: Azure Blob storage - hot, cool, and archive
 date: "2020-10-05T00:00:00.000Z"
 template: "post"
 category: "Development"
